@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '10.0'
+
+target 'NLPTestSDKBase_Example' do
+  pod 'NLPTestSDKBase', :path => '../'
+
+  target 'NLPTestSDKBase_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
