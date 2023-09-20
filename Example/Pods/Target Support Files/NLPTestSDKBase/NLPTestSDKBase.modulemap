@@ -1,0 +1,6 @@
+framework module NLPTestSDKBase {
+  umbrella header "NLPTestSDKBase-umbrella.h"
+
+  export *
+  module * { export * }
+}

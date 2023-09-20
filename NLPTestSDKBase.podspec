@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'NLPTestSDKBase'
-  s.version          = '0.1.0'
+  s.version          = '0.0.1'
   s.summary          = 'A short description of NLPTestSDKBase.'
 
 # This description is used to generate tags and improve search results.
@@ -32,11 +32,12 @@ TODO: Add long description of the pod here.
 
   s.source_files = 'NLPTestSDKBase/Classes/**/*'
   
-  # s.resource_bundles = {
-  #   'NLPTestSDKBase' => ['NLPTestSDKBase/Assets/*.png']
-  # }
+   s.resource_bundles = {
+     'NLPTestSDKBase' => ['NLPTestSDKBase/Assets/NLPMedia.bundle']
+   }
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
-  # s.dependency 'AFNetworking', '~> 2.3'
+   s.dependency 'AFNetworking', '~> 4.0.1'
+   s.dependency 'MJExtension'
 end
