@@ -66,7 +66,7 @@
 		AD90B56E79E5002F52F47D98 /* Pods-NLPTestSDKBase_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NLPTestSDKBase_Tests.release.xcconfig"; path = "Target Support Files/Pods-NLPTestSDKBase_Tests/Pods-NLPTestSDKBase_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		B3F24FA7448FED51B98732FA /* Pods_NLPTestSDKBase_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NLPTestSDKBase_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C3B136FEC402B8DE721BFA12 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
-		D2504DF700B42E68522DE4E3 /* NLPTestSDKBase.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = NLPTestSDKBase.podspec; path = ../NLPTestSDKBase.podspec; sourceTree = "<group>"; };
+		D2504DF700B42E68522DE4E3 /* NLPTestSDKBase.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = NLPTestSDKBase.podspec; path = ../NLPTestSDKBase.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
